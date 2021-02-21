@@ -65,10 +65,10 @@ header .banner-text h1 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   font: 20px/1.9em 'librebaskerville-regular', serif;
+   color: #cecece;
    margin: 0 auto;
-   width: 70%;
+   width: 80%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
@@ -100,7 +100,7 @@ header .social li a:hover { color: #11ABB0; }
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 30px;
+   bottom: 15px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
@@ -202,20 +202,21 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
-   font-size: 18px;
-   line-height: 30px;
-   color: #7A7A7A;
+   font-size: 22px;
+   line-height: 34px;
+   color: #9c9c9c;
 }
 #about .profile-pic {
    position: relative;
-   width: 250px;
-   height: 230px;
+   width: 260px;
+   height: 240px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
-   padding-top: 6px;
+   padding-top: 8px;
+   padding-left: 50px;
 }
 #about .main-col { padding-right: 5%; }
 #about .download .button {
@@ -268,7 +269,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 18px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -300,7 +301,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 30px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -321,8 +322,8 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #0785a5;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 30px;
+   line-height: 30px;
    border-radius: 3px 0 0 3px;
 }
 
@@ -337,12 +338,12 @@ ul#nav li.current a { color: #F06000; }
    -webkit-animation: salesforce 2s ease;
 }
 .hubspot {
-  	width: 78%;
+  	width: 80%;
   	-moz-animation: hubspot 2s ease;
   	-webkit-animation: hubspot 2s ease;
 }
 .devops {
-  	width: 75%;
+  	width: 80%;
   	-moz-animation: devops 2s ease;
   	-webkit-animation: devops 2s ease;
 }
@@ -357,25 +358,26 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: javascript 2s ease;
 }
 .web {
-   width: 75%;
+   width: 83%;
    -moz-animation: web 2s ease;
    -webkit-animation: web 2s ease;
 }
-.database {
-   width: 90%;
-   -moz-animation: database 2s ease;
-   -webkit-animation: database 2s ease;
-}
 .python {
-   width: 80%;
+   width: 82%;
    -moz-animation: python 2s ease;
    -webkit-animation: python 2s ease;
 }
-.reactjs {
+.database {
+   width: 94%;
+   -moz-animation: database 2s ease;
+   -webkit-animation: database 2s ease;
+}
+
+/* .reactjs {
   	width: 80%;
   	-moz-animation: reactjs 2s ease;
   	-webkit-animation: reactjs 2s ease;
-}
+} */
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }

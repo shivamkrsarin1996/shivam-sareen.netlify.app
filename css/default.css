@@ -282,6 +282,13 @@ abbr:hover { cursor: help; }
 
 hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 30px; height: 0; }
 
+/*  Blinking cursor */
+.blinking-cursor {
+   font: 90px/1.1em 'opensans-bold', sans-serif;
+   color: #fff;
+ }
+
+ 
 
 /*  3. Links  ------------------------------------------------------- */
 
@@ -642,7 +649,7 @@ input[type="checkbox"] { display: inline; }
 .row .six         { width: 50%; }
 .row .seven       { width: 58.33333%; }
 .row .eight       { width: 66.66667%; }
-.row .nine        { width: 75%; }
+.row .nine        { width: 80%; }
 .row .ten         { width: 83.33333%; }
 .row .eleven      { width: 91.66667%; }
 .row .twelve      { width: 100%; }
