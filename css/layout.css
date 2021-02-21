@@ -202,13 +202,14 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
+   font-size: 18px;
    line-height: 30px;
    color: #7A7A7A;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 250px;
+   height: 230px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -326,27 +327,27 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 86%;
+  	width: 88%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .salesforce {
-   width: 84%;
+   width: 85%;
    -moz-animation: salesforce 2s ease;
    -webkit-animation: salesforce 2s ease;
 }
 .hubspot {
-  	width: 75%;
+  	width: 78%;
   	-moz-animation: hubspot 2s ease;
   	-webkit-animation: hubspot 2s ease;
 }
 .devops {
-  	width: 72%;
+  	width: 75%;
   	-moz-animation: devops 2s ease;
   	-webkit-animation: devops 2s ease;
 }
 .software {
-  	width: 90%;
+  	width: 92%;
   	-moz-animation: Software 2s ease;
   	-webkit-animation: Software 2s ease;
 }
@@ -361,12 +362,12 @@ ul#nav li.current a { color: #F06000; }
    -webkit-animation: web 2s ease;
 }
 .database {
-   width: 88%;
+   width: 90%;
    -moz-animation: database 2s ease;
    -webkit-animation: database 2s ease;
 }
 .python {
-   width: 79%;
+   width: 80%;
    -moz-animation: python 2s ease;
    -webkit-animation: python 2s ease;
 }
@@ -436,12 +437,12 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px/1px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #66af52;
 }
 
 /* Portfolio Content */
@@ -510,11 +511,11 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
-   font: 14px/21px 'opensans-bold', sans-serif;
+   font: 16px/28px 'opensans-bold', sans-serif;
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
+   font: 16px/20px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
