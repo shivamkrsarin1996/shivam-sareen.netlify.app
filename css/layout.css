@@ -328,12 +328,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 88%;
+  	width: 89%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .salesforce {
-   width: 85%;
+   width: 86%;
    -moz-animation: salesforce 2s ease;
    -webkit-animation: salesforce 2s ease;
 }
