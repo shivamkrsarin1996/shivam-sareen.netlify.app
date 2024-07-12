@@ -58,7 +58,7 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 120px/1.1em 'opensans-bold', sans-serif;
+   font: 130px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
@@ -262,10 +262,10 @@ ul#nav li.current a { color: #F06000; }
 .line-1{
     position: relative;
     top: 50%;  
-    width: 24em;
+    width: 26em;
     margin: 0 auto;
     border-right: 6px solid rgba(255,255,255,.75);
-    font-size: 120%;
+    font-size: 100%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -275,12 +275,12 @@ ul#nav li.current a { color: #F06000; }
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 4.5s steps(44) 1s 1 normal both,
              blinkTextCursor 1s steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 26em;}
+  to{width: 22em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(228, 130, 18, 0.75);}
