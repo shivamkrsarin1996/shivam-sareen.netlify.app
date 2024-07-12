@@ -320,7 +320,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #0785a5;
+  	background: #0d76d8;
    display: inline-block;
   	height: 30px;
    line-height: 30px;
@@ -328,12 +328,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 89%;
+  	width: 88%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .salesforce {
-   width: 86%;
+   width: 85%;
    -moz-animation: salesforce 2s ease;
    -webkit-animation: salesforce 2s ease;
 }
@@ -371,6 +371,11 @@ ul#nav li.current a { color: #F06000; }
    width: 94%;
    -moz-animation: database 2s ease;
    -webkit-animation: database 2s ease;
+}
+.distibuted {
+   width: 88%;
+   -moz-animation: java 2s ease;
+   -webkit-animation: java 2s ease;
 }
 
 /* .reactjs {
